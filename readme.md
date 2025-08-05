@@ -27,3 +27,9 @@ ros2 service call /dobot_bringup_ros2/srv/GetErrorID dobot_msgs_v4/srv/GetErrorI
 
 # 8. Get angle:
 ros2 service call dobot_bringup_ros2/srv/GetAngle dobot_msgs_v4/srv/GetAngle
+
+# 9. Start Drag:
+ros2 service call /dobot_bringup_ros2/srv/StartDrag dobot_msgs_v4/srv/StartDrag
+
+# 10. Stop Drag:
+ros2 service call /dobot_bringup_ros2/srv/StopDrag dobot_msgs_v4/srv/StopDrag
