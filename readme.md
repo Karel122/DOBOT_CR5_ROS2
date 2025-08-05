@@ -4,6 +4,7 @@ Ta postopek opisuje kako krmiliti DOBOT-a CR5 z uprabo ROS2 Humble okolja.
 
 # 1. Vzpostavitev povezave z dobotom:
 ros2 launch cr_robot_ros2 dobot_bringup_ros2.launch.py
+
 Ta ukaz deluje le, če je robot povezan s pravilnim IP-jem
 
 # 2. Zaženi MoveIt:
