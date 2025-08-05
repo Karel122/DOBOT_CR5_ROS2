@@ -24,3 +24,6 @@ ros2 service call /dobot_bringup_ros2/srv/ClearError dobot_msgs_v4/srv/ClearErro
 
 # 7. Get error ID:
 ros2 service call /dobot_bringup_ros2/srv/GetErrorID dobot_msgs_v4/srv/GetErrorID "{}"
+
+# 8. Get angle:
+ros2 service call dobot_bringup_ros2/srv/GetAngle dobot_msgs_v4/srv/GetAngle
