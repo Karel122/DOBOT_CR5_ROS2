@@ -21,3 +21,6 @@ ros2 service call /dobot_bringup_ros2/srv/DisableRobot dobot_msgs_v4/srv/Disable
 
 # 6. Clear Error:
 ros2 service call /dobot_bringup_ros2/srv/ClearError dobot_msgs_v4/srv/ClearError "{}"
+
+# 7. Get error ID:
+ros2 service call /dobot_bringup_ros2/srv/GetErrorID dobot_msgs_v4/srv/GetErrorID "{}"
