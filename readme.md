@@ -33,3 +33,6 @@ ros2 service call /dobot_bringup_ros2/srv/StartDrag dobot_msgs_v4/srv/StartDrag
 
 # 10. Stop Drag:
 ros2 service call /dobot_bringup_ros2/srv/StopDrag dobot_msgs_v4/srv/StopDrag
+
+# 11. MoveIt:
+ros2 launch dobot_moveit dobot_moveit.launch.py
