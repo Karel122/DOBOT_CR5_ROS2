@@ -36,3 +36,6 @@ ros2 service call /dobot_bringup_ros2/srv/StopDrag dobot_msgs_v4/srv/StopDrag
 
 # 11. MoveIt:
 ros2 launch dobot_moveit dobot_moveit.launch.py
+
+# 12. Pozicija:
+/dobot_msgs_v4/msg/ToolVectorActual
