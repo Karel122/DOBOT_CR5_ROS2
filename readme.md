@@ -39,3 +39,6 @@ ros2 launch dobot_moveit dobot_moveit.launch.py
 
 # 12. Pozicija:
 /dobot_msgs_v4/msg/ToolVectorActual
+
+# 13. Run GazeboSim:
+ros2 launch dobot_gazebo dobot_gazebo.launch.py
